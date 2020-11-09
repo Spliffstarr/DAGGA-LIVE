@@ -877,3 +877,90 @@ a {
     transform: translateX(-100%);
   }
 }
+.cid-sfNTDpRNPa {
+  overflow-x: hidden !important;
+}
+.cid-sfNTDpRNPa,
+.cid-sfNTDpRNPa .scroll-wrapper {
+  padding-top: 225px;
+  padding-bottom: 105px;
+}
+.cid-sfNTDpRNPa .mbr-section-title {
+  color: #ffffff;
+}
+.cid-sfNTDpRNPa .mbr-section-title span {
+  color: #6592e6;
+}
+.cid-sfNTDpRNPa .mbr-text {
+  color: #efefef;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+.cid-sfNTDpRNPa .scroll-wrapper {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  background-repeat: repeat;
+  z-index: 0;
+  -webkit-animation-duration: 30s !important;
+  animation-duration: 30s;
+  background-image: url("../../../assets/images/live-stream-concept-with-smartphone-23-2148503719-626x417.jpg");
+  -webkit-animation: scroll-wrapper linear infinite;
+  -moz-animation: scroll-wrapper linear infinite;
+  -o-animation: scroll-wrapper linear infinite;
+  animation: scroll-wrapper linear infinite;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.cid-sfNTDpRNPa .scroll-wrapper.second {
+  left: calc(100% - 1px);
+}
+.cid-sfNTDpRNPa .mbr-overlay {
+  z-index: 1;
+}
+.cid-sfNTDpRNPa .block-content {
+  z-index: 2;
+}
+@keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-moz-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-o-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
