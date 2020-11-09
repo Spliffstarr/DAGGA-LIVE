@@ -790,110 +790,90 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-sfNz96TBfu {
-  background-color: #cc1414;
+.cid-sfNO9O8lwJ {
+  overflow-x: hidden !important;
 }
-.cid-sfNz96TBfu .text {
-  padding: 0;
+.cid-sfNO9O8lwJ,
+.cid-sfNO9O8lwJ .scroll-wrapper {
+  padding-top: 225px;
+  padding-bottom: 105px;
 }
-.cid-sfNz96TBfu section {
-  position: relative;
+.cid-sfNO9O8lwJ .mbr-section-title {
+  color: #ffffff;
 }
-.cid-sfNz96TBfu h3 {
-  padding-bottom: 0;
-  margin-bottom: 0;
+.cid-sfNO9O8lwJ .mbr-section-title span {
+  color: #6592e6;
 }
-.cid-sfNz96TBfu .mbr-iconfont {
-  padding: 0!important;
+.cid-sfNO9O8lwJ .mbr-text {
+  color: #efefef;
+  letter-spacing: 5px;
+  font-weight: 100;
 }
-.cid-sfNz96TBfu .back {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-color: #000000;
-}
-.cid-sfNz96TBfu .box {
-  background-image: url("../../../assets/images/20200909-203808-1440x809-1440x809.png");
-  background-size: cover;
-  background-position: center;
-  height: 550px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.cid-sfNz96TBfu .icon-wrap {
-  background-color: #cc1414 !important;
-  width: 80px;
-  height: 80px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s;
-}
-.cid-sfNz96TBfu .icon-wrap:hover {
-  transform: scale(1.1);
-}
-.cid-sfNz96TBfu .icon-wrap span {
-  padding-left: 8px;
-}
-.cid-sfNz96TBfu .mbr-media span {
-  font-size: 30px;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  transition: all 0.25s;
-  color: #000000 !important;
-}
-.cid-sfNz96TBfu .mbr-media span.mbri-play:before {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-35%);
-  -moz-transform: translateX(-35%);
-  -ms-transform: translateX(-35%);
-  -o-transform: translateX(-35%);
-  transform: translateX(-35%);
-}
-.cid-sfNz96TBfu .modalWindow {
-  position: fixed;
-  z-index: 5000;
-  left: 0;
+.cid-sfNO9O8lwJ .scroll-wrapper {
   top: 0;
-  background-color: rgba(61, 61, 61, 0.65);
   width: 100%;
   height: 100%;
-}
-.cid-sfNz96TBfu .modalWindow .modalWindow-container {
-  display: table-cell;
-  vertical-align: middle;
-}
-.cid-sfNz96TBfu .modalWindow .modalWindow-video {
-  height: calc(44.9943757vw);
-  width: 80vw;
-  margin: 0 auto;
-}
-.cid-sfNz96TBfu a.close {
+  background-position: 50% 50%;
+  background-size: cover;
   position: absolute;
-  right: 4vw;
-  top: 4vh;
-  color: #ffffff;
-  z-index: 5000000;
-  font-size: 37px;
-  background: #000;
-  padding: 20px;
-  border-radius: 50%;
+  background-repeat: repeat;
+  z-index: 0;
+  -webkit-animation-duration: 30s !important;
+  animation-duration: 30s;
+  background-image: url("../../../assets/images/live-stream-concept-with-smartphone-23-2148503719-626x417.jpg");
+  -webkit-animation: scroll-wrapper linear infinite;
+  -moz-animation: scroll-wrapper linear infinite;
+  -o-animation: scroll-wrapper linear infinite;
+  animation: scroll-wrapper linear infinite;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
-.cid-sfNz96TBfu a.close:hover {
-  color: #ffffff;
+.cid-sfNO9O8lwJ .scroll-wrapper.second {
+  left: calc(100% - 1px);
 }
-@media (max-width: 767px) {
-  .cid-sfNz96TBfu .box {
-    height: 250px;
+.cid-sfNO9O8lwJ .mbr-overlay {
+  z-index: 1;
+}
+.cid-sfNO9O8lwJ .block-content {
+  z-index: 2;
+}
+@keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  .cid-sfNz96TBfu .row {
-    padding: 1rem!important;
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-moz-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-o-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
